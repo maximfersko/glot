@@ -1,0 +1,106 @@
+.header {
+    background: url(../../img/headbg.png)center (center / cover) no-repeat;
+    background-size: 100%;
+    min-height: 680px;
+
+
+    &_logo {
+        margin-top: 23px;
+    }
+
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            margin-top: 60px;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 400;
+            text-decoration: none;
+
+            &:active {
+                text-decoration:  underline;
+                color: #ec644b;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    &_block {
+        margin-top: 40px;
+    }
+
+    &_question {
+        margin-left: 65px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+
+    &_phone {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    &_title {
+        margin-top: 58px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    &_subtitle {
+        margin-top: 26px;
+        color: #ec644b;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    &_descr {
+        margin-top: 9px;
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    br {
+        width: 809px;
+        height: 10px;
+        color: #fff;
+    }
+
+    &_content {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 39px;
+
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+
+
+    &_text {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+}

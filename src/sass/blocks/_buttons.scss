@@ -1,0 +1,49 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    border-radius: 28px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    text-transform: uppercase;
+    outline: 0 !important;
+    border: none;
+
+    &:active {
+        background-color: #008844;
+        transition: 0.4s;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 21px;
+        color: #ff7799;
+    }
+
+    &_head {
+        
+        display: block;
+        margin: 0 auto;
+        width: 230px;
+        height: 57px;
+    }
+    &_tabs{
+        display: block;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &_forms {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+
+#button_header {
+    margin-top: 44px;
+}

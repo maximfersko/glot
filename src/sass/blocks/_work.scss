@@ -1,0 +1,40 @@
+.work {
+    padding: 51px 0 57px 0;
+
+    hr {
+        
+        display: block;
+        margin: 0 auto;
+        width: 148px;
+        height: 2px;
+        color: #ec644b;
+    }
+
+    &_content {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    &_name {
+        margin-top: 27px;
+        text-align: center;
+        color: #ec644b;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &_text {
+        margin-top: 13px;
+        text-align: center;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300
+    }
+}
+
+#center {
+    margin: 0 30px 0 30px;
+}

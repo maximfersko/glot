@@ -1,0 +1,42 @@
+.diagram {
+    padding-top: 51px ;
+    margin-top: -30px;
+    height: 454px;
+    background-color: #f3f3f3;
+
+    &_wrapper {
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_wrapper-second {
+        margin-top: 44px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    &_img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &_title {
+        margin-top: 12px;
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &_text {
+        margin-top: 8px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+

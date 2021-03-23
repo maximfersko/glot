@@ -1,0 +1,40 @@
+.forms {
+    &_title {
+        color: #3a3a3a;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    &_wrapper {
+        z-index: 0;
+        margin-top: 71px;
+        width: 1140px;
+        height: 166px;
+        border: 1px #898989 solid;
+    }
+
+    form {
+
+        margin-top: 16px;
+        margin-left: 160px;
+        margin-bottom: 13px;
+    }
+
+    img {
+        margin-top: -45px;
+        margin-left: 518px;
+
+    }
+
+    input {
+        opacity: 0.3;
+        outline: none;
+        margin-left: 5px;
+        height: 48px;
+        width: 276px;
+        border-radius: 25px;
+        text-align: center;
+    }
+}

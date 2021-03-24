@@ -1,7 +1,7 @@
 .input {
 
     input {
-        
+
         outline: none;
         margin-left: 5px;
         height: 48px;
@@ -19,23 +19,30 @@
     }
 
     &_feedback {
-
-        form {
-            margin-top: 18px;
+        margin-bottom: 10px;
+        input {
+            margin-left: -1px;
+            width: 268px;
+            height: 45px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            background-color: #ffffff
         }
+
     }
 
-   
 
-  
+
+
 
 }
 
 #input_text {
+    display: block;
+    margin: 0 auto;
     margin-top: 8px;
     padding: 18px 0 41px 25px;
     border-radius: 16px;
-    width: 813px;
+    width: 805px;
     height: 12px;
     border: 1px solid rgba(0, 0, 0, 0.21);
     background-color: #ffffff;

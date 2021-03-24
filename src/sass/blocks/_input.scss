@@ -1,0 +1,46 @@
+.input {
+
+    input {
+        
+        outline: none;
+        margin-left: 5px;
+        height: 48px;
+        width: 276px;
+        border-radius: 25px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    form {
+
+        margin-top: 16px;
+        margin-left: 160px;
+        margin-bottom: 13px;
+    }
+
+    &_feedback {
+
+        form {
+            margin-top: 18px;
+        }
+    }
+
+   
+
+  
+
+}
+
+#input_text {
+    margin-top: 8px;
+    padding: 18px 0 41px 25px;
+    border-radius: 16px;
+    width: 813px;
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    background-color: #ffffff;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+
+}
